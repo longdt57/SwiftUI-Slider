@@ -8,15 +8,59 @@
 
 /* Begin PBXBuildFile section */
 		D12793182D0ECE95000F7C1E /* SwiftUI_Slider.h in Headers */ = {isa = PBXBuildFile; fileRef = D12793172D0ECE95000F7C1E /* SwiftUI_Slider.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D127933E2D0ED121000F7C1E /* AnySliderBubble.swift in Sources */ = {isa = PBXBuildFile; fileRef = D127932A2D0ED121000F7C1E /* AnySliderBubble.swift */; };
+		D127933F2D0ED121000F7C1E /* SliderBubble.swift in Sources */ = {isa = PBXBuildFile; fileRef = D127932B2D0ED121000F7C1E /* SliderBubble.swift */; };
+		D12793402D0ED121000F7C1E /* AnySliderHandle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D127932D2D0ED121000F7C1E /* AnySliderHandle.swift */; };
+		D12793412D0ED121000F7C1E /* DefaultSliderHandle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D127932E2D0ED121000F7C1E /* DefaultSliderHandle.swift */; };
+		D12793422D0ED121000F7C1E /* SliderHandle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D127932F2D0ED121000F7C1E /* SliderHandle.swift */; };
+		D12793432D0ED121000F7C1E /* AnySliderTick.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12793312D0ED121000F7C1E /* AnySliderTick.swift */; };
+		D12793442D0ED121000F7C1E /* DefaultSliderTrackTick.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12793322D0ED121000F7C1E /* DefaultSliderTrackTick.swift */; };
+		D12793452D0ED121000F7C1E /* SliderTick.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12793332D0ED121000F7C1E /* SliderTick.swift */; };
+		D12793462D0ED121000F7C1E /* AnySliderTrack.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12793352D0ED121000F7C1E /* AnySliderTrack.swift */; };
+		D12793472D0ED121000F7C1E /* DefaultSliderTrackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12793362D0ED121000F7C1E /* DefaultSliderTrackView.swift */; };
+		D12793482D0ED121000F7C1E /* SliderTrack.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12793372D0ED121000F7C1E /* SliderTrack.swift */; };
+		D12793492D0ED121000F7C1E /* LexlyDiscreteSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = D127933A2D0ED121000F7C1E /* LexlyDiscreteSlider.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D12793202D0ECEDF000F7C1E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		D12793142D0ECE95000F7C1E /* SwiftUI_Slider.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftUI_Slider.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D12793172D0ECE95000F7C1E /* SwiftUI_Slider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftUI_Slider.h; sourceTree = "<group>"; };
+		D12793222D0ECEDF000F7C1E /* libSlider.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSlider.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D127932A2D0ED121000F7C1E /* AnySliderBubble.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnySliderBubble.swift; sourceTree = "<group>"; };
+		D127932B2D0ED121000F7C1E /* SliderBubble.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SliderBubble.swift; sourceTree = "<group>"; };
+		D127932D2D0ED121000F7C1E /* AnySliderHandle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnySliderHandle.swift; sourceTree = "<group>"; };
+		D127932E2D0ED121000F7C1E /* DefaultSliderHandle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultSliderHandle.swift; sourceTree = "<group>"; };
+		D127932F2D0ED121000F7C1E /* SliderHandle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SliderHandle.swift; sourceTree = "<group>"; };
+		D12793312D0ED121000F7C1E /* AnySliderTick.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnySliderTick.swift; sourceTree = "<group>"; };
+		D12793322D0ED121000F7C1E /* DefaultSliderTrackTick.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultSliderTrackTick.swift; sourceTree = "<group>"; };
+		D12793332D0ED121000F7C1E /* SliderTick.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SliderTick.swift; sourceTree = "<group>"; };
+		D12793352D0ED121000F7C1E /* AnySliderTrack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnySliderTrack.swift; sourceTree = "<group>"; };
+		D12793362D0ED121000F7C1E /* DefaultSliderTrackView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultSliderTrackView.swift; sourceTree = "<group>"; };
+		D12793372D0ED121000F7C1E /* SliderTrack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SliderTrack.swift; sourceTree = "<group>"; };
+		D127933A2D0ED121000F7C1E /* LexlyDiscreteSlider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LexlyDiscreteSlider.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		D12793112D0ECE95000F7C1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D127931F2D0ECEDF000F7C1E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -38,6 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				D12793142D0ECE95000F7C1E /* SwiftUI_Slider.framework */,
+				D12793222D0ECEDF000F7C1E /* libSlider.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -45,9 +90,93 @@
 		D12793162D0ECE95000F7C1E /* SwiftUI Slider */ = {
 			isa = PBXGroup;
 			children = (
+				D12793292D0ED0CA000F7C1E /* Sources */,
 				D12793172D0ECE95000F7C1E /* SwiftUI_Slider.h */,
 			);
 			path = "SwiftUI Slider";
+			sourceTree = "<group>";
+		};
+		D12793292D0ED0CA000F7C1E /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				D127933D2D0ED121000F7C1E /* Sources */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		D127932C2D0ED121000F7C1E /* Bubble */ = {
+			isa = PBXGroup;
+			children = (
+				D127932A2D0ED121000F7C1E /* AnySliderBubble.swift */,
+				D127932B2D0ED121000F7C1E /* SliderBubble.swift */,
+			);
+			path = Bubble;
+			sourceTree = "<group>";
+		};
+		D12793302D0ED121000F7C1E /* Handle */ = {
+			isa = PBXGroup;
+			children = (
+				D127932D2D0ED121000F7C1E /* AnySliderHandle.swift */,
+				D127932E2D0ED121000F7C1E /* DefaultSliderHandle.swift */,
+				D127932F2D0ED121000F7C1E /* SliderHandle.swift */,
+			);
+			path = Handle;
+			sourceTree = "<group>";
+		};
+		D12793342D0ED121000F7C1E /* Tick */ = {
+			isa = PBXGroup;
+			children = (
+				D12793312D0ED121000F7C1E /* AnySliderTick.swift */,
+				D12793322D0ED121000F7C1E /* DefaultSliderTrackTick.swift */,
+				D12793332D0ED121000F7C1E /* SliderTick.swift */,
+			);
+			path = Tick;
+			sourceTree = "<group>";
+		};
+		D12793382D0ED121000F7C1E /* Track */ = {
+			isa = PBXGroup;
+			children = (
+				D12793352D0ED121000F7C1E /* AnySliderTrack.swift */,
+				D12793362D0ED121000F7C1E /* DefaultSliderTrackView.swift */,
+				D12793372D0ED121000F7C1E /* SliderTrack.swift */,
+			);
+			path = Track;
+			sourceTree = "<group>";
+		};
+		D12793392D0ED121000F7C1E /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				D127932C2D0ED121000F7C1E /* Bubble */,
+				D12793302D0ED121000F7C1E /* Handle */,
+				D12793342D0ED121000F7C1E /* Tick */,
+				D12793382D0ED121000F7C1E /* Track */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		D127933B2D0ED121000F7C1E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D127933A2D0ED121000F7C1E /* LexlyDiscreteSlider.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D127933C2D0ED121000F7C1E /* Slider */ = {
+			isa = PBXGroup;
+			children = (
+				D12793392D0ED121000F7C1E /* Components */,
+				D127933B2D0ED121000F7C1E /* View */,
+			);
+			path = Slider;
+			sourceTree = "<group>";
+		};
+		D127933D2D0ED121000F7C1E /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				D127933C2D0ED121000F7C1E /* Slider */,
+			);
+			name = Sources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -82,6 +211,23 @@
 			productReference = D12793142D0ECE95000F7C1E /* SwiftUI_Slider.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		D12793212D0ECEDF000F7C1E /* Slider */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D12793262D0ECEDF000F7C1E /* Build configuration list for PBXNativeTarget "Slider" */;
+			buildPhases = (
+				D127931E2D0ECEDF000F7C1E /* Sources */,
+				D127931F2D0ECEDF000F7C1E /* Frameworks */,
+				D12793202D0ECEDF000F7C1E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Slider;
+			productName = Slider;
+			productReference = D12793222D0ECEDF000F7C1E /* libSlider.a */;
+			productType = "com.apple.product-type.library.static";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -89,9 +235,13 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
 				LastUpgradeCheck = 1540;
 				TargetAttributes = {
 					D12793132D0ECE95000F7C1E = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					D12793212D0ECEDF000F7C1E = {
 						CreatedOnToolsVersion = 15.4;
 					};
 				};
@@ -110,6 +260,7 @@
 			projectRoot = "";
 			targets = (
 				D12793132D0ECE95000F7C1E /* SwiftUI Slider */,
+				D12793212D0ECEDF000F7C1E /* Slider */,
 			);
 		};
 /* End PBXProject section */
@@ -126,6 +277,25 @@
 
 /* Begin PBXSourcesBuildPhase section */
 		D12793102D0ECE95000F7C1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D12793492D0ED121000F7C1E /* LexlyDiscreteSlider.swift in Sources */,
+				D12793482D0ED121000F7C1E /* SliderTrack.swift in Sources */,
+				D12793412D0ED121000F7C1E /* DefaultSliderHandle.swift in Sources */,
+				D12793452D0ED121000F7C1E /* SliderTick.swift in Sources */,
+				D12793462D0ED121000F7C1E /* AnySliderTrack.swift in Sources */,
+				D12793442D0ED121000F7C1E /* DefaultSliderTrackTick.swift in Sources */,
+				D127933F2D0ED121000F7C1E /* SliderBubble.swift in Sources */,
+				D12793402D0ED121000F7C1E /* AnySliderHandle.swift in Sources */,
+				D12793422D0ED121000F7C1E /* SliderHandle.swift in Sources */,
+				D12793472D0ED121000F7C1E /* DefaultSliderTrackView.swift in Sources */,
+				D12793432D0ED121000F7C1E /* AnySliderTick.swift in Sources */,
+				D127933E2D0ED121000F7C1E /* AnySliderBubble.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D127931E2D0ECEDF000F7C1E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -324,6 +494,30 @@
 			};
 			name = Release;
 		};
+		D12793272D0ECEDF000F7C1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D12793282D0ECEDF000F7C1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -341,6 +535,15 @@
 			buildConfigurations = (
 				D127931C2D0ECE95000F7C1E /* Debug */,
 				D127931D2D0ECE95000F7C1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D12793262D0ECEDF000F7C1E /* Build configuration list for PBXNativeTarget "Slider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D12793272D0ECEDF000F7C1E /* Debug */,
+				D12793282D0ECEDF000F7C1E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
